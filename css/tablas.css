@@ -1,0 +1,97 @@
+
+
+#principal h2 { margin: 0.5em; color: navy; font-size: 1.5em }
+#principal p { margin: 0.5em 5em; text-align: justify; font-size: 0.9em; }
+#principal sup { font-size: 0.5em; }
+/*título de la lista*/
+#principal h3 { color: navy; margin: 0.5em; font-size: 1.3em; }
+/*tabla: aspectos generales*/
+table { border: 4px double blue; width: 70%; border-collapse: collapse;   }
+table th, table td { border: 1px solid blue; padding: 0.5em; }
+/*estilo de celdas*/
+table th { color: purple; }
+table td { text-align: left; padding-left: 2em; }
+
+
+
+
+
+h2{
+    text-align: center;
+    align-items: center;
+    text-align: center; color: maroon; font-size: 30px; font-family: tahoma, verdana, arial;
+}
+
+#sub{
+    padding-right: 5%;
+}
+
+ h3{
+    text-align: left;
+    
+    font-size: 25px;
+}
+
+#navegacion { background-color: purple; padding: 5px 0px; }
+#navegacion a{
+    display: flex;
+    padding-left: 20%;
+}
+
+#principal{
+    text-align: justify;
+    text-align: left;
+    margin-left: 5%;
+}
+
+
+#enlaces p{
+    align-items: center;
+    text-align: center;
+}
+
+#titEn{
+    margin-left: 20%;
+     color: olive; font-size: 25px; 
+    font-family: stencil, impact, "times new roman"; 
+    text-transform: uppercase;
+}
+
+#cont{
+    font-family: stencil, impact, "times new roman"; 
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+h1 {text-align: center; color: blue; font-size: 40px; font-family: arial;}
+
+p { text-align: justify; margin: 1em 10em; font-family: verdana, nimrod, tahoma; 
+    font-size: 14px; color: navy; }
+a { text-decoration: none; font-weight: bold; font-size: 18px; font-family: tahoma, arial; }
+a img { height: 150px; }
+a:link { color: navy; }
+a:visited { color: blue; }
+a:hover { color: green; font-style: italic; }
+a:active {color: red; }
+a img:hover { height: 145px; }
+#cabecera img { float: left; width: 100px; margin-left: 50px; }
+
+#cabecera { background-color: silver; padding: 20px 10px; }
+
+.vacio { clear: both; }
+
+.menu { width: 25%; float: left; }
+.menu a { margin: 0px 50px; color: white; }
+.menu a:hover { color: yellow; font-style: normal; }
+
+
+
+#pie { background-color: #ffe4c4; margin-top: 20px; padding: 10px 0px; }
+.col_pie { float: left; width: 33%; }
+.col_pie h4 { font-size: 1.2em; color: maroon; padding-left: 3em; font-family: arial; }
+.col_pie p { margin: 5px; padding-left: 3em; font-size: 0.8em; color: black; }
